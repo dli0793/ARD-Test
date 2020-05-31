@@ -110,49 +110,55 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
             case R.id.button:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 1"))
+                        buttonreleases++;
                     t = t.replace(" Key 1", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
             case R.id.button2:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 2"))
+                        buttonreleases++;
                     t = t.replace(" Key 2", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
             case R.id.button3:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 3"))
+                        buttonreleases++;
                     t = t.replace(" Key 3", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
             case R.id.button4:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 4"))
+                        buttonreleases++;
                     t = t.replace(" Key 4", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
             case R.id.button5:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 5"))
+                        buttonreleases++;
                     t = t.replace(" Key 5", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
             case R.id.button6:
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                     t = "" + text.getText();
+                    if(t.contains(" Key 6"))
+                        buttonreleases++;
                     t = t.replace(" Key 6", "");
                     text.setText(t);
-                    buttonreleases++;
                 }
                 break;
         }
